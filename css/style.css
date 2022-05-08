@@ -75,6 +75,7 @@ input:hover {
 
 .container {
     max-width: 1170px;
+    margin: auto;
 }
 
 .main-menu {
@@ -88,8 +89,8 @@ input:hover {
 
 .main-menu ul li {
     display: inline-block;
-    margin-right: 40px;
     text-decoration: none;
+    margin-right: 30px;
 }
 
 .main-menu ul li a {
@@ -120,7 +121,6 @@ section p {
 
 .portfolio .container .portfolio-wrapper {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -205,17 +205,17 @@ section p {
     text-transform: uppercase;
 }
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
     .container {
         max-width: 992px;
     }
 }
 
-@media (max-widht: 992px) {
+@media (max-width: 992px) {
     .container {
         max-width: 768px;
     }
-    .portfolio .container .portfolio-wrapper .portfolio-item img {
+    .portfolio .container .portfolio-wrapper .portfolio-item {
         flex-basis: 50%;
     }
 }
@@ -224,7 +224,7 @@ section p {
     .container {
         max-width: 95%;
     }
-    .portfolio .container .portfolio-wrapper .portfolio-item img {
+    .portfolio .container .portfolio-wrapper .portfolio-item {
         flex-basis: 100%;
     }
 }
@@ -239,6 +239,6 @@ section p {
     }
     .contact input[type="text"],
     .contact input[type="email"] {
-        flex-basis: 48%;
+        flex-basis: 100%;
     }
 }
