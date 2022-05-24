@@ -32,7 +32,7 @@ section {
 }
 
 .main-header {
-    height: 70vh;
+    padding: 11vh;
     background-image: url("../img/header.jpg");
     background-size: cover;
     background-position: center;
@@ -57,7 +57,7 @@ span {
     color: #007bff;
 }
 
-input[type=submit] {
+.btn {
     border: 1px solid #007bff;
     padding: 10px 20px;
     background-color: transparent;
@@ -66,9 +66,11 @@ input[type=submit] {
     transition: all .3s;
     display: inline-block;
     margin: 10px auto;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-input:hover {
+.btn:hover {
     background-color: #007bff;
     color: #fff;
 }
@@ -83,25 +85,32 @@ input:hover {
     align-items: center;
     justify-content: center;
     background-color: #007bff;
-    height: 50px;
     text-align: center;
+}
+
+.main-menu ul {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 50px;
 }
 
 .main-menu ul li {
     display: inline-block;
     text-decoration: none;
     margin-right: 30px;
+    width: 100px;
 }
 
 .main-menu ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 14px;
 }
 
 .main-menu ul li a:hover {
     background-color: #fff;
     color: #007bff;
-    padding: 14px;
 }
 
 section .img0 {
